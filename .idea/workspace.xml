@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="792c705c-54ac-4f22-ba4c-2435c369009f" name="Default Changelist" comment="" />
+    <list default="true" id="792c705c-54ac-4f22-ba4c-2435c369009f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Facetracking_Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="cv_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImageProcessing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,8 +106,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ImageProcessing" />
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Facetracking_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -144,7 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.ez-image-optimizer" />
         <item itemvalue="Python.head_angle" />
