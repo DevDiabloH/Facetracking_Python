@@ -1,4 +1,6 @@
-import cv2, dlib, sys
+import cv2
+import dlib
+import sys
 import numpy as np
 
 scaler = 1
