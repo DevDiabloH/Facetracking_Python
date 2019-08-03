@@ -57,16 +57,16 @@ while True:
   faces = detector(img)
 
   if len(faces) > 0:
-    for i in list(faces):
+    for face in list(faces):
       img = cv2.rectangle(img,
-                          pt1=(i.left(), i.top()),
-                          pt2=(i.right(), i.bottom()),
+                          pt1=(face.left(), face.top()),
+                          pt2=(face.right(), face.bottom()),
                           color=(255, 255, 255),
                           thickness=2,
                           lineType=cv2.LINE_AA)
 
       # Head Shape
-      dlip_shape = predictor(img, i)
+      dlip_shape = predictor(img, face)
       shape_2d = np.array([[p.x, p.y] for p in dlip_shape.parts()])
 
       # Head Size
