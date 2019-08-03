@@ -6,3 +6,4 @@
 .idea/Facetracking_Python.iml
 *.xml
 .idea/workspace.xml
+shape_predictor_68_face_landmarks.dat
